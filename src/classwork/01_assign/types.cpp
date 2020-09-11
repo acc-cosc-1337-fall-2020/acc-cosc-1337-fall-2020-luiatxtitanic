@@ -2,9 +2,10 @@
 #include "types.h"
 
 //DON'T ERASE THIS
-int sum_numbers(int num1, int num2)
+int multiply_numbers(int num1, int num2, int result)
 {
-	return num1 + num2;
+result = num1 * num2;
+return 0;
 }
 
 
