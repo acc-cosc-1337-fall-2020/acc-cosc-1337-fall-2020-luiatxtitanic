@@ -1,5 +1,5 @@
 ﻿//example
-int add_numbers(int num1, int num2);
+void variable_expressions();
 
 //write function prototype for multiply_numbers with two integer parameters num1, and num2
 
