@@ -1,20 +1,25 @@
+#include <iostream>
 #include "expressions.h"
 
 //example
 void variable_expressions()
+
 {
+  
   int num1 = 2, num2 = 5;
   int sum = num1 + num2;
-
-  cout << "Sum is:" << sum << "\n";
+  
+  std::cout << "Sum is:" << sum << ".\n";
 
   int product = num1 * num2;
-  cout << "product is:" << product << "\n";
+
+  std::cout << "product is:" << product << ".\n";
 
   int total = num1 + num1 * num2;
-  cout << "total is:" << total << "\n"; 
-	
- 
+  std::cout << "total is:" << total << ".\n"; 
+  
+  total = (num1 * num2) * num2;
+  std::cout << "total is: " << total << ".\n";
 
 }
 

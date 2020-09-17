@@ -1,11 +1,11 @@
 ﻿//write include statements
 #include <iostream>
 #include "expressions.h"
-using namespace std;
+
 
 //write namespace using statement for cout
 
-
+using std::cout; using std::endl;
 /*
 Call multiply_numbers with 10 and 10 parameter values and display function result
 */
