@@ -1,6 +1,7 @@
 #define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
 #include "catch.hpp"
 #include "while.h"
+#include "do_while.h"
 
 TEST_CASE("Verify Test Configuration", "verification") 
 {
@@ -8,8 +9,11 @@ TEST_CASE("Verify Test Configuration", "verification")
 }
 TEST_CASE("verify")
 {
-  REQUIRE(sum_of_squares(3) == 24);
+  REQUIRE(sum_of_squares(3) == 14);
   REQUIRE(sum_of_squares(4) == 30);
   REQUIRE(sum_of_squares(5) == 55);
 }
-
+TEST_CASE( )
+{
+REQUIRE(sum_numbers(4) -- 11);
+}

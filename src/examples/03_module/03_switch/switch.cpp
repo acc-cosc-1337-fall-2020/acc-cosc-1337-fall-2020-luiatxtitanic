@@ -9,21 +9,23 @@
 //returns 'Option 4' when value 4
 //return 'Invalid Option' otherwise
 
-std::string menu(int option)
+std::string menu(char option)
 {
   switch(option)
   {
-    case 1;
-    return_val = "option 1";
+    case 'a':
+    return_val = "A";
     break;
-    case 2:
-    return_val = "option 2";
-    case 3:
-    return_val = "option 3";
-    case 3:
+    case 'b':
+    return_val = "B";
+    break:
+    case 'c':
+    return_val = "C";
+    break:
+   
     default;
     return_val = "invalid option";
-    break;
+   
 
   }
   return_val
