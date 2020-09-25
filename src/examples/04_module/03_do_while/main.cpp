@@ -1,7 +1,7 @@
-
+#include <iostream>
 #include "do_while.h"
 
-//using std::cout; using std::cin;
+
 int main()
 {
 
