@@ -2,10 +2,11 @@
 #include "types.h"
 
 //DON'T ERASE THIS
-int multiply_numbers(int num1, int num2, int result)
+int multiply_numbers(int num1)
 {
-result = num1 * num2;
-return 0;
+    int num2 = 5;
+    return num1 * num2;
+
 }
 
 
