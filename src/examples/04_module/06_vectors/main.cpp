@@ -1,3 +1,4 @@
+
 #include "vec.h"
 
 int main() 
