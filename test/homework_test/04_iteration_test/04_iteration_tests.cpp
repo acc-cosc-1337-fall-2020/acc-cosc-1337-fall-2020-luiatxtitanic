@@ -11,7 +11,7 @@ std::string str1 = "AGCTATAG";
   REQUIRE(get_gc_content(str1) == .375);
 
 std::string str2 = "CGCTATAG";
-REQUIRE(get_gc_content(str2) == .50);
+  REQUIRE(get_gc_content(str2) == .50);
 
 }
 
@@ -24,7 +24,11 @@ TEST_CASE(" TEST REVERSE STRING FUNCTION")
   REQUIRE(get_reverse_string(str2) == "GATATCGC"); 
 }
 
-TEST_CASE("TEST FUCNTION GET DAN COMPLEMENT")
+TEST_CASE("TEST FUCNTION GET Dna COMPLEMENT")
 {
-  
+std::string str1 = "AAAACCCGGT";
+  REQUIRE(get_dna_complement(str1) == "ACCGGGTTTT");
+
+std::string str2 = "CCCGGAAAAT";
+  REQUIRE(get_dna_complement(str2) == "ATTTTCCGGG");
 }

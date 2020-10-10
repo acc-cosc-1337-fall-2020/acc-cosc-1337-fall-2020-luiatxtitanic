@@ -24,3 +24,26 @@ TEST_CASE("TEST BANK ACCOUNT INITIAL BALANCE")
   REQUIRE(account.get_balance() == 100);
   
 }
+TEST_CASE("TEST BANK ACCOUNT INITIAL BALANCE")
+{
+  Bank_Account account;
+
+  REQUIRE(account.get_balance() == 0);
+
+  account.deposit(100);
+
+  REQUIRE(account.get_balance() == 100);
+  
+  REQUIRE(account.get_balance() == 50);
+}
+TEST_CASE("TEST BANK ACCOUNT INITIAL BALANCE")
+{
+  Bank_Account account;
+
+  REQUIRE(account.get_balance() == 0);
+
+  account.deposit(100);
+
+  REQUIRE(withdraw(-50) == 100);
+  
+}

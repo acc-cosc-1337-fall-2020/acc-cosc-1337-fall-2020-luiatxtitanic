@@ -62,34 +62,34 @@ c. return string
 */
   string get_dna_complement(string dna) 
   {
-      string complement_dna = get_reverse_string(dna);
-      int l = complement_dna.length();
+      string dna_complement = get_reverse_string(dna);
+      int l = dna_complement.length();
       char a = 'A';
       char t = 'T';
       char c = 'C';
       char g = 'G';
 
-      for(int i = 0; i < 1; i++)
+      for(int i = 0; i < l; i++)
       {
-        if(complement_dna[i] == a)
+        if(dna_complement[i] == a)
         {
-          complement_dna[i] = t;
+          dna_complement[i] = t;
         }
-        else if(complement_dna[i] == t)
+        else if(dna_complement[i] == t)
         {
-          complement_dna[i] = a;
+          dna_complement[i] = a;
         }
-        else if(complement_dna[i] == c)
+        else if(dna_complement[i] == c)
         {
-          complement_dna[i] = g;
+          dna_complement[i] = g;
         }
-        else if(complement_dna[i] == g)
+        else if(dna_complement[i] == g)
         {
-          complement_dna[i] = c;
+          dna_complement[i] = c;
         }
 
       }
 
-      return complement_dna;
+      return dna_complement;
   }
 
